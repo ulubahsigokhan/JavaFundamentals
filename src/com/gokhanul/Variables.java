@@ -2,7 +2,7 @@ package com.gokhanul;
 
 public class Variables {
 
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
 
         // In Java, a variable is declared by writing, name,
         // and optionally assigning a value with the assignment operator.
@@ -135,7 +135,7 @@ public class Variables {
             // Instance variables
             // Instance variables are variables that belong to an object, and each object has its own copy of them.
             // They are declared inside a class (but outside methods) and store the state or data of an object.
-            String name;
+            Strings name;
             int age;
         }
     }

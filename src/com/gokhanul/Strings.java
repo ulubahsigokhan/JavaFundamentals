@@ -20,6 +20,8 @@ public class Strings {
         String country = new String("USA");
         // Explanation: Both create Strings, but the first is preferred.
 
+        //-----------------------------------------------------------------------------------------------------
+
         // Changing a String value
         // Strings connot be modified - a new String is created
         String name1 = "Donald";
@@ -58,6 +60,7 @@ public class Strings {
         String b = "Java";
         a.equals(b); // true
 
+        //-----------------------------------------------------------------------------------------------------
 
         // Checking empty or null Strings
         // Empty String
@@ -70,20 +73,27 @@ public class Strings {
             System.out.println("No value");
         }
 
+        //-----------------------------------------------------------------------------------------------------
 
         // Replacing text
         String sentence = "I like Java";
         sentence.replace("Java", "Programming");
         System.out.println(sentence);
 
+        //-----------------------------------------------------------------------------------------------------
+
         // Splitting text
         String names = "Mark, Alex, John";
         String[] result = names.split(", ");
         System.out.println(Arrays.toString(result));
 
+        //-----------------------------------------------------------------------------------------------------
+
         // Trimming spaces
         String input = " Hello ";
         input.trim(); // "Hello"
+
+        //-----------------------------------------------------------------------------------------------------
 
         // String immutability (important concept)
         String concatWord = "Hello";
@@ -96,11 +106,6 @@ public class Strings {
 
         // Strings provide many methods to manipulate and work with text,
         // but they are immutable.
-
-
-
-
-
 
     }
 }

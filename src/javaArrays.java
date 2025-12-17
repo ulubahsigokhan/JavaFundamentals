@@ -68,6 +68,39 @@ public class javaArrays {
         int[] copy = Arrays.copyOf(original, original.length); // original.length is used when you want a full, exact copy
         System.out.println("Original: " + Arrays.toString(original));
         System.out.println("Copy: " + Arrays.toString(copy));
-        
+
+        //----------------------------------------------------------------------------------------------------
+
+        // MULTI DIMENSIONAL ARRAY
+        // This example shows how to create a 2D array by initializing values directly and by defining the size first.
+        // 1. Initialize with values
+        int[][] matrix1 = {
+                {1, 2, 3},
+                {4, 5, 6}
+        };
+
+        // 2. Define size, then assign values
+        int[][] matrix2 = new int[2][3];
+        matrix2[0][0] = 10;
+        matrix2[0][1] = 20;
+        matrix2[0][2] = 30;
+        matrix2[1][0] = 40;
+        matrix2[1][1] = 50;
+        matrix2[1][2] = 60;
+
+        System.out.println(matrix1);
+        System.out.println(matrix2);
+
+        //----------------------------------------------------------------------------------------------------
+
+        // Using Arrays.deepToString()
+        // Arrays.toString() does not work correctly for multidimensional arrays.
+        // Arrays.deepToString is used to display all nested array values.
+        int[][] matrix3 = {
+                {7, 8, 9},
+                {10, 11, 12}
+        };
+        System.out.println(Arrays.deepToString(matrix3));
+
     }
 }

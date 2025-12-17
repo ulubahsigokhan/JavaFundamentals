@@ -41,5 +41,81 @@ public class Operators {
         boolean isValid = username.equals("admin") && password.equals("0000");
 
         System.out.println("Login succesful: " + isValid);
-    }
-}
+
+        //-----------------------------------------------------------------------------------------------------
+
+        // Increment Operator (++)
+        // The increment operator increases a variables value by 1.
+        // It can be used before or after the variable.
+        int g = 5;
+        g++;
+        System.out.println(g);
+
+        // Increments more
+        System.out.println(g = g + 2);
+        System.out.println(g += 2); // (+=) is called Compound Assignment
+
+        //-----------------------------------------------------------------------------------------------------
+
+        // Decrement Operator (--)
+        // The decrement operator decreases a variable’s value by 1.
+        // It can be used before or after the variable.
+        int j = 5;
+        j--;
+        System.out.println(j);
+
+        // Decrements more
+        System.out.println(j = j - 2);
+        System.out.println(j -= 2); // (-=) is called Compound Assignment
+
+        //-----------------------------------------------------------------------------------------------------
+
+        // Post-Increment vs Pre-Increment (x++ vs ++x)
+        // x++ → use the value first, then increase
+        // ++x → increase first, then use the value
+        int m = 5;
+        System.out.println(m++); // prints 5
+        System.out.println(m);  // now 6
+
+        int n = 5;
+        System.out.println(++n); // prints 6
+
+        //-----------------------------------------------------------------------------------------------------
+
+        // Post-Decrement vs Pre-Decrement (x-- vs --x)
+        // x-- → use the value first, then decrease
+        // --x →decrease first, then use the value
+        int o = 5;
+        System.out.println(o--); // prints 5
+        System.out.println(o);  // now 4
+
+        int p = 5;
+        System.out.println(--p); // prints 4
+
+        //-----------------------------------------------------------------------------------------------------
+
+        // Compound Multiplication (*=)
+        // *= multiplies a variable by a value and assigns the result.
+        int l = 4;
+        l *= 2;
+        System.out.println(l); // 8
+
+        //-----------------------------------------------------------------------------------------------------
+
+        // Compound Division (/=)
+        // *= divides a variable by a value and assigns the result.
+        int e = 20;
+        e /= 4;
+        System.out.println(e); // 5
+
+        //-----------------------------------------------------------------------------------------------------
+
+        // Compound Remainder (%=)
+        // %= finds the remainder and stores it back in the variable.
+        int h = 10;
+        h %= 3;
+        System.out.println(h); // 1
+            }
+        }
+
+

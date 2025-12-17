@@ -2,7 +2,7 @@ package com.gokhanul;
 
 public class Variables {
 
-    public static void main(Strings[] args) {
+    public static void main(String[] args) {
 
         // In Java, a variable is declared by writing, name,
         // and optionally assigning a value with the assignment operator.
@@ -160,10 +160,26 @@ public class Variables {
         class Person {
 
             // Instance variables
-            // Instance variables are variables that belong to an object, and each object has its own copy of them.
+            // are variables that belong to an object, and each object has its own copy of them.
             // They are declared inside a class (but outside methods) and store the state or data of an object.
             Strings name;
             int age;
         }
+
+        //-----------------------------------------------------------------------------------------------------
+
+        // Creating a CONSTANT
+        // in Java is a variable whose value cannot be changed once it is assigned.
+        // Constants are created using the final keyword and are commonly written in UPPERCASE
+        // to make them easy to recognize.
+        final double PI = 3.14159;
+        final int MAX_ATTEMPTS = 3;
+
+        double radius = 5;
+        double area = PI * radius * radius;
+
+        System.out.println("Area of the circle: " + area);
+        System.out.println("Max login attempts allowed: " + MAX_ATTEMPTS);
+
     }
 }

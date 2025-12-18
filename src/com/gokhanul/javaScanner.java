@@ -6,6 +6,8 @@ public class javaScanner {
 
     public static void main(String args[]) {
 
+        // One scanner object is enough, this was just for practice!
+
         // READING A SINGLE WORD WITH Scanner.next()
         // next() reads only one word from user input.
         // It stops at whitespace (space, tab, or Enter).
@@ -42,7 +44,8 @@ public class javaScanner {
         // It does not read the Enter key, which matters when mixing with nextLine().
         Scanner scanner4 = new Scanner(System.in);
         System.out.print("Please enter your age: ");
-        int age = scanner.nextInt();
+        int age = scanner4.nextInt();
         System.out.println("You are " + age + " years old.");
+
     }
 }

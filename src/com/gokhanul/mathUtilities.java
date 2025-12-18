@@ -1,5 +1,7 @@
 package com.gokhanul;
 
+import java.text.NumberFormat;
+
 public class mathUtilities {
 
     public static void main(String args[]) {
@@ -66,6 +68,38 @@ public class mathUtilities {
         // Math.sport() returns the square root of a number.
         double result5 = Math.sqrt(16);
         System.out.println(result5); // 4.0
+
+        //----------------------------------------------------------------------------------------------------
+
+        // FORMATTING CURRENCY WITH NumberFormat.getCurrencyInstance()
+        // NumberFormat.getCurrencyInstance() formats numbers as currency on the default locale(USD in the US),
+        // adds the currency symbol, applies correct decimal places, handles commas correctly
+        double price = 49.9;
+        NumberFormat currency = NumberFormat.getCurrencyInstance();
+        System.out.println(currency.format(price)); // $49.90 (US locale)
+        // or with Method Chaining
+        // System.out.println(NumberFormat.getCurrencyInstance().format(price) $49.90 (US locale)
+
+        //----------------------------------------------------------------------------------------------------
+
+        // PERCENTAGE FORMATTING NumberFormat.getPercentInstance()
+        // getPercentInstance() converts a decimal into a percentage automatically;
+        double rate = 0.25;
+        NumberFormat percent = NumberFormat.getPercentInstance();
+        System.out.println(percent.format(rate)); // %25
+        // or with Method Chaining
+        // System.out.println(NumberFormat.getPercentInstance().format(rate) %25
+
+        //----------------------------------------------------------------------------------------------------
+
+        // CONTROLLING DECIMAL PLACES (COMMON REQUIREMENT)
+        // You can control how many decimals are shown using setMinimumFractionDigits() and
+        // setMaximumFractionDigits().
+        double taxRate = 0.0725;
+        NumberFormat percent2 = NumberFormat.getPercentInstance();
+        percent2.setMinimumFractionDigits(2);
+        System.out.println(percent2.format(taxRate)); // %7.25
+
 
     }
 }

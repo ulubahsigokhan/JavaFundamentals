@@ -1,3 +1,5 @@
+package com.gokhanul;
+
 public class Operators {
 
     public static void main(String[] args) {
@@ -17,7 +19,7 @@ public class Operators {
 
         //-----------------------------------------------------------------------------------------------------
 
-        // Comparison Operators (NUMBER CHECKER)
+        // Comparison com.gokhanul.Operators (NUMBER CHECKER)
         // This example demonstrates comparison operator (>, <, ==, !=) which return true or false when
         // comparing values
 
@@ -31,7 +33,7 @@ public class Operators {
 
         //-----------------------------------------------------------------------------------------------------
 
-        // Logical Operators (LOGIN VALIDATION)
+        // Logical com.gokhanul.Operators (LOGIN VALIDATION)
         // This example shows logical operators (&&, ||, !) used to combine conditions, commonly seen in
         // validation and decision-making
 

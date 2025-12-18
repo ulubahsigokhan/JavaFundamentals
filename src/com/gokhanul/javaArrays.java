@@ -1,3 +1,5 @@
+package com.gokhanul;
+
 import java.util.Arrays;
 
 public class javaArrays {

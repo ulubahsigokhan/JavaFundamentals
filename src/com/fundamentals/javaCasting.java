@@ -1,4 +1,4 @@
-package com.gokhanul;
+package com.fundamentals;
 
 public class javaCasting {
 

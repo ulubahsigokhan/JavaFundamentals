@@ -1,4 +1,4 @@
-package com.gokhanul;
+package com.fundamentals;
 
 import java.text.NumberFormat;
 

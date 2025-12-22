@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class javaScanner {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         // One scanner object is enough, this was just for practice!
 

@@ -2,7 +2,7 @@ package com.fundamentals;
 
 public class comparisonOperators {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         // EQUAL TO (==)
         // The equal to operator (==) checks whether two values are the same.

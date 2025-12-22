@@ -4,7 +4,7 @@ import java.security.spec.RSAOtherPrimeInfo;
 
 public class switchStatements {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         // A switch statement is used to select one block of code from many options based on a single value.
         // It's a cleaner alternative to long if-else-if chains when you are comparing one value or against

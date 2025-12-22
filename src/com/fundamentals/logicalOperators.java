@@ -2,7 +2,7 @@ package com.fundamentals;
 
 public class logicalOperators {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         // LOGICAL AND (&&)
         // The logical AND operator (&&) returns true only if both conditions are true.

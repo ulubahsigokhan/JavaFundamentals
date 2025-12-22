@@ -4,7 +4,7 @@ import java.text.NumberFormat;
 
 public class mathUtilities {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         // ROUNDING NUMBERS WITH Math.round()
         // Math.round() rounds a decimal number to the nearest whole number.

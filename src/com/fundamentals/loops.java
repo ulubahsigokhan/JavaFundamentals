@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class loops {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         // WHILE LOOP
         // A while loop is used when you don't know in advance how many times the loop should run.

@@ -2,7 +2,7 @@ package com.fundamentals;
 
 public class ternaryOperator {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         // The ternary operator is a short, one-line alternative to if-else.
         // It evaluates a condition and returns one of two values.

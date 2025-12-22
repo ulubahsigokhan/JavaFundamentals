@@ -35,7 +35,7 @@ public class creatingMethods {
 
 
     // RESULTS
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         // VOID METHOD
         sayHello();

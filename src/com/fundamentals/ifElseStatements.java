@@ -2,7 +2,7 @@ package com.fundamentals;
 
 public class ifElseStatements {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         // IF STATEMENT
         // The if statement runs a block of code only when a condition is true.
